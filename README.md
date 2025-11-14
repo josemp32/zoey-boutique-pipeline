@@ -90,11 +90,11 @@ Below are screenshots from the original Zoey Boutique iOS app, powered by this P
 
 | Categories | Product Grid |
 |-----------|---------------|
-| ![Categories](docs/zoey_2017_categories.PNG) | ![Product Grid](docs/zoey_2017_product_grid.PNG) |
+| ![Categories](Docs/zoey_2017_categories.PNG) | ![Product Grid](Docs/zoey_2017_product_grid.PNG) |
 
 | Add to Cart | Product Detail |
 |-------------|----------------|
-| ![Add to Cart](docs/zoey_2017_add_to_cart.PNG) | ![Product Detail](docs/zoey_2017_product_detail.PNG) |
+| ![Add to Cart](Docs/zoey_2017_add_to_cart.PNG) | ![Product Detail](Docs/zoey_2017_product_detail.PNG) |
 
 Basic flow:
 
