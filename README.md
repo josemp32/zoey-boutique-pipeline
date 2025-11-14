@@ -84,6 +84,18 @@ This pipeline was used as a one-off data loader to generate an inventory JSON fi
 
 This project is kept for historical purposes and was originally run in a controlled environment.
 
+## 📱 App Screenshots (2017)
+
+Below are screenshots from the original Zoey Boutique iOS app, powered by this Python 2 data ingestion system.
+
+| Categories | Product Grid |
+|-----------|---------------|
+| ![Categories](docs/zoey_2017_categories.PNG) | ![Product Grid](docs/zoey_2017_product_grid.PNG) |
+
+| Add to Cart | Product Detail |
+|-------------|----------------|
+| ![Add to Cart](docs/zoey_2017_add_to_cart.PNG) | ![Product Detail](docs/zoey_2017_product_detail.PNG) |
+
 Basic flow:
 
 ```bash
@@ -108,16 +120,4 @@ python -c "from pyzoeydb.categorize import create_cat_lookup_file, append_to_cat
 
 # 5. Build the final master JSON catalog
 python pyzoeydb/build_master.py
-
-## 📱 App Screenshots (2017)
-
-Below are screenshots from the original Zoey Boutique iOS app, powered by this Python 2 data ingestion system.
-
-| Categories | Product Grid |
-|-----------|---------------|
-| ![Categories](docs/zoey_2017_categories.png) | ![Product Grid](docs/zoey_2017_product_grid.png) |
-
-| Add to Cart | Product Detail |
-|-------------|----------------|
-| ![Add to Cart](docs/zoey_2017_add_to_cart.png) | ![Product Detail](docs/zoey_2017_product_detail.png) |
 
